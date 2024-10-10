@@ -45,10 +45,15 @@ a{
 
 .header{
     background-color: #151515;
+    
 }
 
 .header-main{
     background-color: transparent;
+    position: absolute; /*чтобы поднять слайдер*/
+    z-index: 5; /*чтобы поднять слайдер*/
+    left: 0;
+    right: 0;
 }
 
 .header__inner{
@@ -122,8 +127,12 @@ a{
 .top{
     color: #fff;
     text-align: center;
-    padding-top: 105px;
+    padding-top: 250px;
     padding-bottom: 50px;
+    position: absolute; /*чтобы поднять слайдер*/
+    z-index: 5; /*чтобы поднять слайдер*/
+    left: 0;
+    right: 0;
 }
 
 .title{
@@ -140,4 +149,15 @@ a{
     font-size: 36px;
     font-weight: 700;
     width: 100%;
+}
+
+.swiper-wrapper{
+    background: rgba(21, 21, 21, .3);
+}
+
+.swiper-slide{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
