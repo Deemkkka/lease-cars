@@ -161,3 +161,17 @@ a{
     background-position: center;
     height: 100vh;
 }
+
+.swiper-pagination-bullet{
+    width: 120px;
+    height: 3px;
+    background-color: #151515;
+    border-radius: 0;
+    opacity: 1;
+    margin: 0 15px !important;
+}
+
+.swiper-pagination-bullet-active{
+    height: 6px;
+    background-color: #fff;
+}
