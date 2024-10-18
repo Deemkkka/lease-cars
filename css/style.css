@@ -276,3 +276,48 @@ a{
     top: 0;
 }
 
+.video{
+    margin-bottom: 150px;
+}
+
+.video__title{
+   margin-bottom: 20px; 
+}
+
+.video__text{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.video__frame{
+    text-align: center;
+}
+
+.important{
+    margin-bottom: 150px;
+}
+
+.important__title{
+    margin-bottom: 20px;
+}
+
+.important__text{
+    max-width: 580px;
+    text-align: left;
+    margin: 0 auto 50px;
+}
+
+.important__list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.important__item{
+    
+}
+
+.important__item-img{
+    margin-bottom: 20px;
+}
