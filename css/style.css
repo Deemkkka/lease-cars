@@ -443,7 +443,7 @@ a{
     padding: 4px 20px;
 }
 
-.blog__link{
+.showmore-link{
     text-transform: uppercase;
     color: #fff;
     background-color: #151515;
@@ -454,7 +454,77 @@ a{
     display: block;
 }
 
+.choose{
+    padding: 100px 0 150px;
+}
+
+.tabs__btn{
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.tabs__btn-item{
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.tabs__btn-item--active{
+    color: #0066FF;
+}
+
+.tabs__content{
+    padding: 100px 0 70px;
+}
+
+.tabs__content-item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+}
+
+.card{
+    text-align: center;
+    padding-bottom: 100px;
+}
 
 
+.card__content{
+    padding: 0 5px;
+    border: 1px solid #0066FF;
+    border-top: 0;
+}
 
- /* 4:33  */
+.card-img{
+    display: block;
+}
+
+.card-title{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.card-text{
+    margin-bottom: 20px;
+
+}
+.card-price{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-link{
+    display: block;
+    color: #0066FF;
+    border: 1px solid #0066FF;
+    border-top: 0;
+}
+
+ /* 5:04  */
