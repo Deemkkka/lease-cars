@@ -482,10 +482,15 @@ a{
     padding: 100px 0 70px;
 }
 
+
 .tabs__content-item{
-    display: grid;
+    display: none;
     grid-template-columns: repeat(4, 1fr);
     gap: 100px 40px;
+}
+
+.tabs__content-item.tabs__content-item--active{
+ display: grid;
 }
 
 .card{
@@ -527,4 +532,4 @@ a{
     border-top: 0;
 }
 
- /* 5:04  */
+ /* 5:24  */
